@@ -8,5 +8,5 @@
     return obj[key];
   }
 
-  console.log(getProperty(person, "name"));
+//   console.log(getProperty(person, "name"));
 }
