@@ -15,5 +15,5 @@
 
   const person: Person = { name: "Alice", age: 25, email: "alice@example.com" };
   const validKeys = validateKeys<Person>(person, ["name", "age"]);
-  console.log(validKeys);
+//   console.log(validKeys);
 }

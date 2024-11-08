@@ -13,7 +13,7 @@
 
   const calculateShapeArea = (shape: Tshape): number => {
     if (shape.shape === "circle") {
-      const circleResult = Math.PI * 5 * 5;
+      const circleResult = Math.PI * shape.radius * shape.radius;
  
       return circleResult;
     } else if (shape.shape === "rectangle") {
